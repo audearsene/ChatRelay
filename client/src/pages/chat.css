@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --light-color: #e6e9ff;
+}
+
+.grey-button, #leave-btn {
+    background-color: rgba(211, 211, 211, 0.75);
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.grey-button:hover, #leave-btn:hover {
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    background: #ffeded;
+    margin: 20px;
+}
+
+.btn-wide, .btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.btn-wide {
+    width: 120px;
+}
+
+.chat-container {
+    max-width: 1800px;
+    height: 525px;
+    background: rgba(255, 237, 237, 0.5);
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.chat-header {
+    background: #fadddd;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.chat-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.chat-sidebar {
+    background: rgba(211, 211, 211, 0.75);
+    color: #fff;
+    padding: 30px 30px 90px;
+    overflow-y: scroll;
+}
+
+.chat-sidebar h2 {
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.chat-sidebar h3 {
+    margin-bottom: 30px;
+}
+
+.chat-sidebar ul li {
+    padding: 15px 0;
+}
+
+.chat-messages {
+    padding: 40px;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
+.chat-messages .message {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #e6e9ff;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+.chat-messages .message .meta {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(211, 211, 211, 0.75);
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.chat-messages .message .meta span {
+    color: #777;
+}
+
+.chat-form-container {
+    padding: 5px 5px;
+    background-color: #fadddd;
+}
+
+.chat-form-container form {
+    display: flex;
+}
+
+.chat-form-container input[type='text'] {
+    font-size: 18px;
+    padding: 10px;
+    height: 50px;
+    flex: 1;
+    color: black;
+}
+
+.join-container {
+    max-width: 700px;
+    margin: 120px auto;
+    color: #fff;
+}
